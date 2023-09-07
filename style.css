@@ -1,0 +1,124 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+
+header{ 
+    background-color: #FFD900;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+#chamada{
+    display: flex;
+    flex-direction: row;
+}
+
+#informacao{
+    background-color: #514988;
+    width: 780px;
+    text-align: center;
+    width: 58%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#informacao h1{
+    color: #FFD900;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-left: px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+#informacao h3{
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#informacao p{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*CountDown*/
+
+#regressiva{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+#countVideo h2{
+    color: #E33881;
+    font-size: 24px;
+    display: flex;
+    padding-left: 35px;
+   }
+
+.timer{
+    font-size: 29px;
+    color: #514988;
+    padding-right: 45px;
+    padding-left: 12px;
+}
+
+video{
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+#ingresso{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ingresso h2{
+    padding-left: 20px;
+    color: #f3c61f;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#card{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+
+#card img{
+    width: 180px;
+    cursor: pointer;
+}
+
+button{
+    width: 500px;
+    height: 140px;
+    border-radius: 20px;
+    border: none;
+    background-color: #514988;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(2.5s);
+    transition:0.5s;
+    background-color: #38055f;
+}
